@@ -12,5 +12,11 @@ public class Player : MonoBehaviour
     void Update()
     {
         print("Oi");
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(0, 5 * Time.deltaTime, 0);
+        }
+
     }
 }
