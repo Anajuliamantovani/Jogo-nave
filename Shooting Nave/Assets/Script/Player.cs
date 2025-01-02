@@ -7,13 +7,15 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        gameObject.name = "Player";
     }
 
     // Update is called once per frame
     void Update()
     {
         //exemplo();
+        escala();
+        exercicio();
         movimento();
         velocidadeAumentada();
         velocidadeDiminuida();
@@ -28,18 +30,26 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || y == 1)
         {
             transform.Translate(0, velocidade * Time.deltaTime, 0);
+            GetComponent<SpriteRenderer>().color = Color.red;
         }
         if (Input.GetKey(KeyCode.S) || y == -1)
         {
             transform.Translate(0, -velocidade * Time.deltaTime, 0);
+            GetComponent<SpriteRenderer>().color = Color.cyan;
         }
         if (Input.GetKey(KeyCode.D) || x == 1)
         {
             transform.Translate(velocidade * Time.deltaTime, 0, 0);
+            GetComponent<SpriteRenderer>().color = Color.white;
         }
         if (Input.GetKey(KeyCode.A) || x == -1)
         {
             transform.Translate(-velocidade * Time.deltaTime, 0, 0);
+            GetComponent<SpriteRenderer>().color = Color.black;
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            print("FOGO");
         }
     }
 
@@ -88,6 +98,26 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             GetComponent<SpriteRenderer>().flipY = true;
+        }
+    }
+
+    void escala() 
+    {
+        GetComponent <SpriteRenderer>().color = Color.green;
+        print(transform.localScale.y);
+        print(transform.localScale.x);
+        print(transform.localScale.z);
+    }
+
+    void exercicio() 
+    {
+        if (Input.GetKeyDown(KeyCode.U)) 
+        {
+            GetComponent<SpriteRenderer> ().flipY = true;
+        }
+        if (Input.GetKeyUp(KeyCode.U)) 
+        {
+            GetComponent<SpriteRenderer>().flipY = false;
         }
     }
 }
