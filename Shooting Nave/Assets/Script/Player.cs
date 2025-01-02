@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         gameObject.name = "Player";
+        //gameObject.SetActive(true); // habilita e desabilita o objeto.
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
     //Função responsável pelo movimento do objeto.
     void movimento()
     {
+        Vector3 teleporte = new Vector3 (-0.03f, -0.1f, 0.105f );
         float x = Input.GetAxis("Horizontal"); 
         float y = Input.GetAxis("Vertical");
 
@@ -50,6 +52,8 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             print("FOGO");
+            //transform.position = teleporte;
+            transform.position = new Vector3(-0.03f, -0.1f, 0.105f);
         }
     }
 
