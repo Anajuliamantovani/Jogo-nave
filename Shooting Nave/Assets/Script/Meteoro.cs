@@ -1,13 +1,21 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Meteoro : MonoBehaviour
 {
+    //RETORNO é função
+
     public float velocidade;
+    Vector3 posiocione;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         GetComponent<SpriteRenderer>().color = Color.black;
+        gameObject.name = "Meteoro";
+        print(name);
+        posiocione = transform.position;
     }
 
     // Update is called once per frame
@@ -21,7 +29,7 @@ public class Meteoro : MonoBehaviour
     {
         if (transform.position.y <= -5.54f) 
         {
-            transform.position = new Vector3(-0.19f, 4.38f, 0);
+            transform.position = posiocione; // ATRIBUI UM VALOR DO MESMO TIPO
         }
     }
 

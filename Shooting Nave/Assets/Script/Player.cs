@@ -3,12 +3,14 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float velocidade;
+    Vector3 novaescala;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameObject.name = "Player";
         //gameObject.SetActive(true); // habilita e desabilita o objeto.
+        novaescala = transform.localScale;
     }
 
     // Update is called once per frame
@@ -29,22 +31,22 @@ public class Player : MonoBehaviour
         float x = Input.GetAxis("Horizontal"); 
         float y = Input.GetAxis("Vertical");
 
-        if (Input.GetKey(KeyCode.W) || y == 1)
+        if (Input.GetKey(KeyCode.W) && transform.position.y <= 3.9)
         {
             transform.Translate(0, velocidade * Time.deltaTime, 0);
             GetComponent<SpriteRenderer>().color = Color.red;
         }
-        if (Input.GetKey(KeyCode.S) || y == -1)
+        if (Input.GetKey(KeyCode.S) && transform.position.y >= -4.21)
         {
             transform.Translate(0, -velocidade * Time.deltaTime, 0);
             GetComponent<SpriteRenderer>().color = Color.cyan;
         }
-        if (Input.GetKey(KeyCode.D) || x == 1)
+        if (Input.GetKey(KeyCode.D) && transform.position.x <= 7.56)
         {
             transform.Translate(velocidade * Time.deltaTime, 0, 0);
             GetComponent<SpriteRenderer>().color = Color.white;
         }
-        if (Input.GetKey(KeyCode.A) || x == -1)
+        if (Input.GetKey(KeyCode.A) && transform.position.x >= -7.84)
         {
             transform.Translate(-velocidade * Time.deltaTime, 0, 0);
             GetComponent<SpriteRenderer>().color = Color.black;
@@ -54,6 +56,33 @@ public class Player : MonoBehaviour
             print("FOGO");
             //transform.position = teleporte;
             transform.position = new Vector3(-0.03f, -0.1f, 0.105f);
+            print(navizinha(false));
+            print(navizinha(true));
+
+        }
+        if (Input.GetKeyDown(KeyCode.J)) 
+        {
+            /*novaescala = new Vector3 (2f, 2f, 2f); //jeito alternativo
+            transform.localScale = novaescala;*/
+            
+            transform.localScale = new Vector3 (2f,2f,2f);
+        }
+        if (Input.GetKeyUp(KeyCode.J))
+        {
+            transform.localScale = novaescala;
+        }
+    }
+
+    bool navizinha(bool flip) 
+    {
+        if (flip == true)
+        {
+            return false;
+        }
+
+        else
+        {
+            return true;
         }
     }
 
@@ -117,11 +146,22 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.U)) 
         {
-            GetComponent<SpriteRenderer> ().flipY = true;
+            GetComponent<SpriteRenderer>().flipY = true;
         }
         if (Input.GetKeyUp(KeyCode.U)) 
         {
             GetComponent<SpriteRenderer>().flipY = false;
         }
     }
+
+
+    /* void wall()
+    {
+        if (transform.position.x >= 7.47f) 
+        {
+            transform.position.x = new Vector3 (7.47f, 0);
+        }
+    }*/
 }
+
+

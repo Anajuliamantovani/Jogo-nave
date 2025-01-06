@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|d:\\dowloads\\jogo_nave\\jogo-nave\\shooting nave\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|d:\\dowloads\\jogo_nave\\jogo-nave\\shooting nave\\assets\\script\\meteoro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\meteoro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Meteoro.cs",
+              "DocumentMoniker": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Meteoro.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Meteoro.cs",
+              "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Meteoro.cs",
+              "RelativeToolTip": "Assets\\Script\\Meteoro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:23:26.26Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T23:23:58.45Z",
               "EditorCaption": ""

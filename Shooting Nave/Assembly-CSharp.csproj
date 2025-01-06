@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Meteoro.cs" />
     <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Script\Projetil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
