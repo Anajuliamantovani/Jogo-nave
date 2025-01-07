@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\Meteoro.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\Projetil.cs" />
+    <Compile Include="Assets\Script\LPOO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

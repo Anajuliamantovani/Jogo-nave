@@ -16,8 +16,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //exemplo();
-        escala();
+        exemplo();
+        //escala();
         exercicio();
         movimento();
         velocidadeAumentada();
@@ -34,22 +34,22 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.W) && transform.position.y <= 3.9)
         {
             transform.Translate(0, velocidade * Time.deltaTime, 0);
-            GetComponent<SpriteRenderer>().color = Color.red;
+            //GetComponent<SpriteRenderer>().color = Color.red;
         }
         if (Input.GetKey(KeyCode.S) && transform.position.y >= -4.21)
         {
             transform.Translate(0, -velocidade * Time.deltaTime, 0);
-            GetComponent<SpriteRenderer>().color = Color.cyan;
+            //GetComponent<SpriteRenderer>().color = Color.cyan;
         }
         if (Input.GetKey(KeyCode.D) && transform.position.x <= 7.56)
         {
             transform.Translate(velocidade * Time.deltaTime, 0, 0);
-            GetComponent<SpriteRenderer>().color = Color.white;
+            //GetComponent<SpriteRenderer>().color = Color.white;
         }
         if (Input.GetKey(KeyCode.A) && transform.position.x >= -7.84)
         {
             transform.Translate(-velocidade * Time.deltaTime, 0, 0);
-            GetComponent<SpriteRenderer>().color = Color.black;
+            //GetComponent<SpriteRenderer>().color = Color.black;
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -153,15 +153,6 @@ public class Player : MonoBehaviour
             GetComponent<SpriteRenderer>().flipY = false;
         }
     }
-
-
-    /* void wall()
-    {
-        if (transform.position.x >= 7.47f) 
-        {
-            transform.position.x = new Vector3 (7.47f, 0);
-        }
-    }*/
 }
 
 
