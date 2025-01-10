@@ -1,4 +1,5 @@
 using NUnit.Framework.Constraints;
+using Unity.VisualScripting;
 using UnityEngine;
 using static Unity.Burst.Intrinsics.X86;
 
@@ -119,5 +120,13 @@ public class LPOO : MonoBehaviour
                 }
             }
         }
+        int i = 0;
+
+        while(i <= 10)
+        {
+           i = i + 1;
+        }
     }
+
+   
 }
