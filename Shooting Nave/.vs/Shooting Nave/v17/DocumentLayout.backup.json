@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|d:\\dowloads\\jogo_nave\\jogo-nave\\shooting nave\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\meteoro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|d:\\dowloads\\jogo_nave\\jogo-nave\\shooting nave\\assets\\script\\projetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\assets\\script\\projetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\projetil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T23:23:58.45Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Meteoro.cs",
               "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Meteoro.cs",
               "RelativeToolTip": "Assets\\Script\\Meteoro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T21:23:26.26Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Projetil.cs",
               "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Projetil.cs",
               "RelativeToolTip": "Assets\\Script\\Projetil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T22:47:33.802Z",
               "EditorCaption": ""
