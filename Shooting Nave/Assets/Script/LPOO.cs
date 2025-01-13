@@ -16,8 +16,11 @@ public class LPOO : MonoBehaviour
         ImprimirCrescente(1, 10);
         ImprimirDecrescente(10,2);
         tabuada(5);*/
-        fatorial(20);
-        ImparPar(true);
+        //fatorial(20);
+        //ImparPar(true);
+        //contador(10);
+        //danoninho(2);
+        yakult();
     }
 
     // Update is called once per frame
@@ -120,13 +123,43 @@ public class LPOO : MonoBehaviour
                 }
             }
         }
-        int i = 0;
+    }
 
-        while(i <= 10)
+    void contador(int num1)
+    {
+        int resultado = 0;
+
+        for (int i = 0; i < num1; i++)
         {
-           i = i + 1;
+            print(resultado + "+" + (i + 1) + "=" + (resultado + (i + 1)));
+            resultado = resultado + (i + 1);        
+        }
+
+        print("Resultado final" + "=" + resultado);
+    }
+
+    void danoninho(int num1)
+    {
+        int resultado = 0;
+
+        for(int i = 10; i > 0; i--)
+        {
+            resultado = num1 * i;
+            print(i + "x" + num1 + "=" + resultado);
         }
     }
 
-   
+    void yakult()
+    {
+        int resultado = 0;
+
+        for (int i = 1; i <= 10; i++)
+        {
+            for(int j = 0; j <= 10; j++)
+            {
+                resultado = i * j;
+                print(i + "x" + j + "=" + resultado);
+            }
+        }
+    }
 }
