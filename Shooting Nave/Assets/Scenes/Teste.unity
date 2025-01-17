@@ -285,6 +285,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2db12f78f25fd469b2e7053d6dcdb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idade: 16
+  idadeMinima: 16
+  n1: 10
+  n2: 3
+  n3: 3
+  peso: 71
+  altura: 1.71
+  msgTrue: Vc pode tirar o titulo de eleitor
+  msgFalse: vc nao pode tirar o titulo de eleitor
+  contagemFrontEnd: 0
+  teste: 10
 --- !u!4 &683092535
 Transform:
   m_ObjectHideFlags: 0

@@ -1,10 +1,21 @@
 using NUnit.Framework.Constraints;
 using Unity.VisualScripting;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
+using System;
 using static Unity.Burst.Intrinsics.X86;
 
 public class LPOO : MonoBehaviour
 {
+    public int idade, idadeMinima;
+    public float n1, n2, n3;
+    public float peso, altura;
+    public string msgTrue, msgFalse;
+    [SerializeField] static public string contagem = "";
+    [SerializeField] public string contagemFrontEnd = "";
+    public int teste;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,7 +31,23 @@ public class LPOO : MonoBehaviour
         //ImparPar(true);
         //contador(10);
         //danoninho(2);
-        yakult();
+        //yakult();
+        contagem = contagemFrontEnd;
+        exercicios.Contador(teste);
+
+        if (exercicios.validarIdade(idade, idadeMinima) == true)
+        {
+            print(msgTrue);
+        }
+        else
+        {
+            print(msgFalse);
+        }
+
+        exercicios.notas(n1, n2, n3);
+        exercicios.IMC(peso, altura);
+        exercicios.RaizQuadrada(81);
+
     }
 
     // Update is called once per frame
@@ -28,6 +55,8 @@ public class LPOO : MonoBehaviour
     {
         
     }
+
+
     float Soma(float num1, float num2) 
     {
         return num1 + num2;
@@ -163,3 +192,71 @@ public class LPOO : MonoBehaviour
         }
     }
 }
+
+public class exercicios : MonoBehaviour
+{
+
+    static public bool validarIdade(int idade, int idadeCerta)
+    {
+        if (idade >= idadeCerta)
+        {
+            return true;
+        }
+        
+        else
+        {
+            return false;
+        }
+        
+    }
+
+    static public float notas(float n1, float n2, float n3)
+    {
+        float media;
+        media = (n1 + n2 + n3) / 3;
+
+        if (media >= 6)
+        {
+            print("Você mandou bem, aproveite as férias");
+        }
+        else
+        {
+            print("Estude mais no próximo ano, não foi dessa vez :(");
+        }
+        return 0;
+    }
+
+    static public float IMC(float peso, float altura)
+    {
+        float IMC;
+        IMC = (altura * altura) / peso;
+        print("Seu IMC é :" + IMC);
+        return 0;
+    }
+
+    static public void RaizQuadrada(int raiz)
+    {
+       for (int i = 0; i < raiz; i++)
+        {
+            if (raiz == (i * i))
+            {
+                print("A raiz quadrada de" + raiz + "=" + i);
+            }
+            else
+            {
+                print("Coloque uma raiz normal seu maluco !!!! #@!");
+            }
+        }
+    }
+
+    static public void Contador(int numero)
+    {
+        for(int i = 0;i < numero; i++)
+        {
+            LPOO.contagem = LPOO.contagem + "" + i; //transformando um int em string ( STRING = "" + OUTROS TIPOS )
+            
+        }
+        print(LPOO.contagem);
+    }
+}
+
