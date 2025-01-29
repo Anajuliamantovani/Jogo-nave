@@ -14,11 +14,18 @@ public class LPOO : MonoBehaviour
     [SerializeField] static public string contagem = "";
     [SerializeField] public string contagemFrontEnd = "";
     public int teste;
-
+    public string Nome01;
+    public string Nome02;
+    public string Nome03;
+    public string [] Nomes = new string [5];
+    public bool macaco;
+    public Color cor;
+    public Example Pessoa;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Nomes = new string[4];
         /*print(Soma(10, 10));
         print(Subtracao(15, 5));
         print(Divisao(10,2));
