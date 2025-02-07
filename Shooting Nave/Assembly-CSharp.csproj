@@ -65,6 +65,7 @@
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\Exemplo.cs" />
     <Compile Include="Assets\Script\Projetil.cs" />
+    <Compile Include="Assets\Script\PowerUp.cs" />
     <Compile Include="Assets\Script\LPOO.cs" />
   </ItemGroup>
   <ItemGroup>

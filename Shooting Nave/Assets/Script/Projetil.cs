@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Projetil : MonoBehaviour
 {
+    public float Velocidade;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,6 +13,6 @@ public class Projetil : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, 2 * Time.deltaTime, 0);
+        transform.Translate(0, Velocidade * Time.deltaTime, 0);
     }
 }
