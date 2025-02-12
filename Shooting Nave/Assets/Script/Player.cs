@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
-    public GameObject Tiro;
+    public GameObject PowerUp;
+    public GameObject TiroPadrao;
     public float velocidade;
     Vector3 novaescala;
 
@@ -50,9 +50,18 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             print("FOGO");
-            Instantiate(Tiro, transform.position, transform.rotation);
+            Instantiate(TiroPadrao, transform.position, transform.rotation);
         }
-    }
+
+        if (Input.GetKeyUp(KeyCode.Z))
+        {
+            Instantiate(PowerUp, transform.position, transform.rotation);
+
+        }
+    }       
 }
+
+
+
 
 
