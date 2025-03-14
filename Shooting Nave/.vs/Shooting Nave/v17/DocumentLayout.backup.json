@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|d:\\dowloads\\jogo_nave\\jogo-nave\\shooting nave\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|d:\\dowloads\\jogo_nave\\jogo-nave\\shooting nave\\assets\\script\\exemplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76256D1F-3D84-9443-7A49-1D2D40A9EBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\exemplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Player.cs",
-              "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Exemplo.cs",
+              "DocumentMoniker": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Exemplo.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Exemplo.cs",
+              "ToolTip": "D:\\Dowloads\\Jogo_nave\\Jogo-nave\\Shooting Nave\\Assets\\Script\\Exemplo.cs",
+              "RelativeToolTip": "Assets\\Script\\Exemplo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T23:04:26.91Z",
+              "WhenOpened": "2025-02-21T00:15:44.392Z",
               "EditorCaption": ""
             }
           ]

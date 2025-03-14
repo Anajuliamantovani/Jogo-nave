@@ -17,7 +17,6 @@ public class Example : MonoBehaviour
 
     public void TrocaMensagem() 
     {
-        
         int num1 = int.Parse(EnviarTexto.text);
         int num2 = int.Parse(EnviarTexto2.text);
 
